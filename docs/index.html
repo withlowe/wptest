@@ -51,7 +51,12 @@ article a{color:var(--accent)}
 footer{border-top:1px solid var(--line);padding-top:1.75rem;color:var(--dim);font-size:.85rem}
 footer h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin:0 0 .6rem}
 footer p{margin:0 0 .8rem}
-footer a{color:var(--accent)}</style>
+footer a{color:var(--accent)}
+#follow{border-top:1px solid var(--line);padding-top:1.75rem;margin-top:1rem}
+#follow h2{font-size:1.1rem;margin:0 0 1rem}
+#follow p{margin:0 0 1rem}
+#follow .addr{margin:0 0 .6rem}
+.hint{color:var(--dim);font-size:.85rem}</style>
 </head>
 <body>
 <div class="wrap">
@@ -59,7 +64,7 @@ footer a{color:var(--accent)}</style>
 <header>
 <h1>Wirepost Test</h1>
 <p class="tagline">A first Wirepost feed, published as static files to GitHub Pages.</p>
-<div class="follow"><a class="primary" href="feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq">Follow</a><a href="atom.xml">Atom</a><a href="rss.xml">RSS</a><a href="feed.json">Download archive</a></div>
+<div class="follow"><a class="primary" href="#follow">Follow</a><a href="atom.xml">Atom</a><a href="rss.xml">RSS</a><a href="feed.json">Download archive</a></div>
 <p class="addr">feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq</p>
 </header>
 
@@ -70,6 +75,24 @@ footer a{color:var(--accent)}</style>
 <ul class="tags"><li>wirepost</li><li>static</li></ul>
 </article>
 
+
+<section id="follow">
+<h2>Follow this publication</h2>
+
+<p>Copy this address into a Wirepost reader:</p>
+<p class="addr">feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq?seq=2&amp;cp=bagaaierahji6mdekxpjldixx7ktzxwdpqstyn3wib5hbhrqlutgzpw4gd6aq&amp;web=https%3A%2F%2Fwithlowe.github.io%2Fwptest%2F</p>
+<p class="hint">It records that you started here, at post 2. If the
+address ever serves an older copy of this publication than the one you were given, your reader
+will say so instead of quietly showing you less.</p>
+
+<p><strong>No Wirepost reader?</strong> Use
+<a href="atom.xml">Atom</a> or <a href="rss.xml">RSS</a> in any feed
+reader you already have. Those carry the posts, but not the signatures — an ordinary feed reader
+has no way to check who wrote them.</p>
+
+<p><a href="feed.json">Download the archive</a> to keep the whole publication as one file,
+readable and verifiable wherever it ends up.</p>
+</section>
 
 <footer>
 <h2>About verification</h2>

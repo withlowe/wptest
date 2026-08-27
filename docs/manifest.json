@@ -8,10 +8,11 @@
     "feed_type": "public",
     "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
     "mirrors": [],
-    "manifestVersion": 1,
+    "manifestVersion": 2,
     "headSequence": 2,
-    "updated": "2026-08-27T13:07:59Z",
+    "updated": "2026-08-27T13:22:26Z",
     "layout": "article",
+    "previous": "bagaaiera6zrkjymao66y7vuxwuk2flimno4adr2q3fd76ft7fejkedrtoa6a",
     "limits": {
       "documentBytes": 1048576,
       "nestingDepth": 8,
@@ -31,5 +32,5 @@
     "web": "https://withlowe.github.io/wptest/"
   },
   "alg": "ed25519",
-  "sig": "z4F1UcwYLyLKKmBfYg9RVdGCzsaPCNmq6GJ3t9hb2CFCb7q4ChqXAAWgA4RowzykqH6j5p2g3hqJL5JaThyspP2Z9"
+  "sig": "z2PRGJqASaEWtqHbXLqtBpRYAKb79ueF4WXDqCPLc9w7ty7q5whShSmX8GRh6TBrJZkXJKvbLnMW6ffYkhexxZRtB"
 }
