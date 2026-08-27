@@ -1,0 +1,23 @@
+{
+  "payload": {
+    "type": "head",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "head": "bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq",
+    "checkpoint": 2,
+    "checkpoint_cid": "bagaaieradnhocdxuqboevg5auajqihlewrhcnqcwxp6pfuzc4jzmc7xngnga",
+    "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "updated": "2026-08-27T13:07:59Z",
+    "recent": [
+      {
+        "sequence": 2,
+        "cid": "bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq"
+      },
+      {
+        "sequence": 1,
+        "cid": "bagaaieraxydiivp5nvlnv5t5kqpq2bw5tlchzrqx75iyi75o4rk4ocjvn67q"
+      }
+    ]
+  },
+  "alg": "ed25519",
+  "sig": "z5mrpLrCNsL5fnQKsVXd1ZCV8TCFWinQzihSgTroxcdLXhZh1tzmkast6QBjBquvecJcZJpv5aT7YRsgZwNUiUsTs"
+}

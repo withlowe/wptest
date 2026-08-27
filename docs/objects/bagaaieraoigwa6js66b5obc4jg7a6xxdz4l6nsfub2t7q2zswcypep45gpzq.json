@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "type": "genesis",
+    "version": 1,
+    "root_keys": [
+      {
+        "algorithm": "ed25519",
+        "public": "z6Mkjsewpj4kfAguajfSEYo5iqndT64ypWpHyRgSCCxsbzgW"
+      }
+    ],
+    "next_root_key": "bagaaieracw2ite6hdgolvghzpmqz3ssrejdnhr76zof6f2nybnzeiu4zujra",
+    "created": "2026-08-27T13:07:24Z"
+  },
+  "alg": "ed25519",
+  "sig": "z4sgiRRgXBd6uLhkGBVQ7xP5ToT2g5pVS4ha6Bvv5CpWxyxa3rrn2Sw8H6y4Vmeycg6P7RC533u4iZNvH8ChSjzCX"
+}

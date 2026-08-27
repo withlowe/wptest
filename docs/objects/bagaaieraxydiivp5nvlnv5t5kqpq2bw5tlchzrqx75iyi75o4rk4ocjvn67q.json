@@ -1,0 +1,20 @@
+{
+  "payload": {
+    "type": "delegation",
+    "device": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "permissions": [
+      "publish"
+    ],
+    "created": "2026-08-27T13:07:24Z",
+    "expires": "2027-08-27T13:07:24Z",
+    "published": "2026-08-27T13:07:24Z",
+    "signer": "z6Mkjsewpj4kfAguajfSEYo5iqndT64ypWpHyRgSCCxsbzgW",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "sequence": 1,
+    "parents": [
+      "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq"
+    ]
+  },
+  "alg": "ed25519",
+  "sig": "z2GK5ozoGMrED6nVN3fPF3e991vtSGHLvDJgKg9gkMiJX2AdepJYEqESRm9QM86v7TWLA5rVkNEgGzcecR7Rd3r1S"
+}

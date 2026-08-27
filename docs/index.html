@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wirepost Test</title>
+<meta name="description" content="A first Wirepost feed, published as static files to GitHub Pages.">
+<!-- One tag makes an ordinary page subscribable. A reader that understands
+     Wirepost finds the feed here; every other reader finds the Atom copy. -->
+<link rel="alternate" type="application/wirepost+json" title="Wirepost Test" href="./">
+<link rel="alternate" type="application/atom+xml" title="Wirepost Test" href="atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Wirepost Test" href="rss.xml">
+<style>:root{--bg:#fff;--fg:#16181d;--dim:#5c6370;--line:#e3e5e9;--accent:#2b5cd9;--code:#f5f6f8}
+@media(prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#e8eaed;--dim:#9aa1ad;
+--line:#2a2e35;--accent:#7ba3f5;--code:#1c1f25}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:40rem;margin:0 auto;padding:3rem 1.25rem 6rem}
+header{border-bottom:1px solid var(--line);padding-bottom:1.75rem;margin-bottom:2.5rem}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 .4rem;letter-spacing:-.02em}
+.tagline{color:var(--dim);margin:0 0 1.25rem}
+.follow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.follow a{display:inline-block;padding:.4rem .8rem;border:1px solid var(--line);
+border-radius:6px;text-decoration:none;color:inherit;font-size:.85rem}
+.follow a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.follow a:hover{border-color:var(--accent)}
+.addr{margin:1rem 0 0;padding:.6rem .75rem;background:var(--code);border-radius:6px;
+font:.78rem/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--dim);
+word-break:break-all;user-select:all}
+article{padding-bottom:2.5rem;margin-bottom:2.5rem;border-bottom:1px solid var(--line)}
+article:last-of-type{border-bottom:0}
+article h2{font-size:1.35rem;line-height:1.25;margin:0 0 .3rem;letter-spacing:-.01em}
+article h2 a{color:inherit;text-decoration:none}
+article h2 a:hover{text-decoration:underline}
+time{display:block;color:var(--dim);font-size:.8rem;margin-bottom:1.1rem}
+article h3,article h4{font-size:1.05rem;margin:1.8em 0 .5em}
+article p{margin:0 0 1.1em}
+article img{max-width:100%;height:auto;border-radius:6px}
+article blockquote{margin:1.5em 0;padding-left:1.1em;border-left:3px solid var(--line);
+color:var(--dim)}
+article pre{background:var(--code);padding:.9rem 1rem;border-radius:6px;overflow-x:auto;
+font-size:.85rem}
+article code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em}
+article pre code{font-size:inherit}
+article a{color:var(--accent)}
+.tags{list-style:none;padding:0;margin:1.2rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem}
+.tags li{font-size:.75rem;color:var(--dim)}
+.tags li::before{content:"#";opacity:.5}
+footer{border-top:1px solid var(--line);padding-top:1.75rem;color:var(--dim);font-size:.85rem}
+footer h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin:0 0 .6rem}
+footer p{margin:0 0 .8rem}
+footer a{color:var(--accent)}</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<h1>Wirepost Test</h1>
+<p class="tagline">A first Wirepost feed, published as static files to GitHub Pages.</p>
+<div class="follow"><a class="primary" href="feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq">Follow</a><a href="atom.xml">Atom</a><a href="rss.xml">RSS</a><a href="feed.json">Download archive</a></div>
+<p class="addr">feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq</p>
+</header>
+
+<article id="bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq">
+<h2><a href="#bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq">Hello from Wirepost</a></h2>
+<time datetime="2026-08-27T13:07:48.000Z">August 27, 2026</time>
+<p>This post is a <strong>signed, content-addressed object</strong>. So is every other post in this feed, and so is the record saying which posts exist.</p><p>Nothing here needs a server. The whole publication is a folder of files:</p><ul><li><p>every post is addressed by the hash of its own contents</p></li><li><p>the feed&apos;s identity is a hash, not a domain name</p></li><li><p>moving hosts does not change what the feed <em>is</em></p></li></ul><blockquote><p>A verified badge means this came from this identity. It never means this is true.</p></blockquote><p>You can follow this feed in a Wirepost reader, or subscribe with the Atom link below in any ordinary feed reader.</p>
+<ul class="tags"><li>wirepost</li><li>static</li></ul>
+</article>
+
+
+<footer>
+<h2>About verification</h2>
+<p>Every post here is signed by the publication's own key. A reader that
+understands Wirepost checks those signatures, so it can tell you whether a post
+really came from this publication and whether anything has been altered since.</p>
+<p>That proves <em>origin</em>, not truth. A signature says who wrote something.
+It says nothing about whether they were right.</p>
+<p>Once you have followed this feed, your reader remembers where it got to, and
+will tell you if the history it is offered later contradicts what it already
+has. The first time you subscribe there is nothing to compare against yet.</p>
+<p>Published with Wirepost. This whole page, its archive and its history are
+static files — copy them anywhere and they still work.</p>
+</footer>
+
+</div>
+</body>
+</html>

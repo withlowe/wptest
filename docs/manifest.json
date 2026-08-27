@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "type": "manifest",
+    "protocol": "wirepost",
+    "version": "0.1",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "name": "Wirepost Test",
+    "feed_type": "public",
+    "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "mirrors": [],
+    "manifestVersion": 1,
+    "headSequence": 2,
+    "updated": "2026-08-27T13:07:59Z",
+    "layout": "article",
+    "limits": {
+      "documentBytes": 1048576,
+      "nestingDepth": 8,
+      "blocksPerDocument": 1000,
+      "stringLength": 65536,
+      "titleLength": 1000,
+      "actionLabelLength": 120,
+      "tagCount": 64,
+      "tableRows": 1000,
+      "tableColumns": 64,
+      "imageDimension": 16384,
+      "imageBytes": 33554432,
+      "linkAndActionCount": 1000
+    },
+    "description": "A first Wirepost feed, published as static files to GitHub Pages.",
+    "language": "en",
+    "web": "https://withlowe.github.io/wptest/"
+  },
+  "alg": "ed25519",
+  "sig": "z4F1UcwYLyLKKmBfYg9RVdGCzsaPCNmq6GJ3t9hb2CFCb7q4ChqXAAWgA4RowzykqH6j5p2g3hqJL5JaThyspP2Z9"
+}
