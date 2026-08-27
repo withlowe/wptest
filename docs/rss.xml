@@ -4,9 +4,18 @@
     <title>Wirepost Test</title>
     <description>A first Wirepost feed, published as static files to GitHub Pages.</description>
     <link>https://withlowe.github.io/wptest/</link>
-    <lastBuildDate>Thu, 27 Aug 2026 14:04:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 14:26:14 GMT</lastBuildDate>
     <generator>Wirepost</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://withlowe.github.io/wptest/rss.xml"/>
+    <item>
+      <guid isPermaLink="false">urn:cid:bagaaiera4d72srcp7ch2itby3iw7j4zdxslqstufomddmdyhpavb3l6ggiqa</guid>
+      <title>Hello from Wirepost</title>
+      <pubDate>Thu, 27 Aug 2026 14:26:00 GMT</pubDate>
+      <link>https://withlowe.github.io/wptest/#bagaaiera4d72srcp7ch2itby3iw7j4zdxslqstufomddmdyhpavb3l6ggiqa</link>
+      <category>wirepost</category>
+      <category>static</category>
+      <description>&lt;p&gt;This post is a &lt;strong&gt;signed, content-addressed object&lt;/strong&gt;. So is every other post in this feed, and so is the record saying which posts exist.&lt;/p&gt;&lt;p&gt;Nothing here needs a server. The whole publication is a folder of files:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;every post is addressed by the hash of its own contents&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;the feed&amp;apos;s identity is a hash, not a domain name&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;moving hosts does not change what the feed &lt;em&gt;is&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;a correction is a new signed post, never an edit in place&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;blockquote&gt;&lt;p&gt;A verified badge means this came from this identity. It never means this is true.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;You can follow this feed in a Wirepost reader, or subscribe with the Atom link below in any ordinary feed reader.&lt;/p&gt;</description>
+    </item>
     <item>
       <guid isPermaLink="false">urn:cid:bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq</guid>
       <title>Hello from Wirepost</title>

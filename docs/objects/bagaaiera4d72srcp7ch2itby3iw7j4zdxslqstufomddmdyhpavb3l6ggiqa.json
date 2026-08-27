@@ -1,0 +1,153 @@
+{
+  "payload": {
+    "type": "block",
+    "kind": "article",
+    "content": {
+      "contentVersion": 1,
+      "title": "Hello from Wirepost",
+      "body": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "This post is a "
+            },
+            {
+              "type": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "signed, content-addressed object"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": ". So is every other post in this feed, and so is the record saying which posts exist."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Nothing here needs a server. The whole publication is a folder of files:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            {
+              "type": "listItem",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "every post is addressed by the hash of its own contents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "the feed's identity is a hash, not a domain name"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "moving hosts does not change what the feed "
+                    },
+                    {
+                      "type": "emphasis",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "is"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "a correction is a new signed post, never an edit in place"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "A verified badge means this came from this identity. It never means this is true."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "You can follow this feed in a Wirepost reader, or subscribe with the Atom link below in any ordinary feed reader."
+            }
+          ]
+        }
+      ],
+      "summary": "The first post on a feed that is nothing but static files.",
+      "author": "With Lowe",
+      "tags": [
+        "wirepost",
+        "static"
+      ]
+    },
+    "published": "2026-08-27T14:26:00Z",
+    "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "corrects": "bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "sequence": 3,
+    "parents": [
+      "bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq"
+    ]
+  },
+  "alg": "ed25519",
+  "sig": "z2KvLgyfaf6VVGLHQduSu77d7gTB5bLvx2vF7ERBvoKTZGNSff7PRGpG6ajW27aY7seMzs8W7JooPnEhozjZQoh4Q"
+}
