@@ -4,9 +4,9 @@
     "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
     "head": "bagaaiera4d72srcp7ch2itby3iw7j4zdxslqstufomddmdyhpavb3l6ggiqa",
     "checkpoint": 3,
-    "checkpoint_cid": "bagaaieraop77kzp4ayuewc6mfm3wi7oekqdh2urtyfhwmdqk5t2wxef6g7wa",
+    "checkpoint_cid": "bagaaieragcrjqtgdb7gwutr4temlqg3y674l5tkmnxe4ybny6yjkpho52r7a",
     "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
-    "updated": "2026-08-27T14:26:14Z",
+    "updated": "2026-08-27T14:39:45Z",
     "recent": [
       {
         "sequence": 3,
@@ -23,5 +23,5 @@
     ]
   },
   "alg": "ed25519",
-  "sig": "z2VR9tDRAaBNBsfrWRMGS3SDhNgLN2p5B74jnoygHax3nQwfwJ6Z7EVHRNejyma7XqCAznecvBw41nHQPmq5MAY3H"
+  "sig": "z4rXyiT75yoCMrLupoibqq1GM8jqL9HxzujNzdns7ueG5m8fTd3GhSgMaJQvN2dmd7o8oo3unZAHod51taNNN53T7"
 }
