@@ -57,7 +57,12 @@ footer a{color:var(--accent)}
 #follow h2{font-size:1.1rem;margin:0 0 1rem}
 #follow p{margin:0 0 1rem}
 #follow .addr{margin:0 0 .6rem}
-.hint{color:var(--dim);font-size:.85rem}</style>
+.hint{color:var(--dim);font-size:.85rem}
+/* The identity is quoted inline rather than given its own block: it is not the
+   thing to copy — the pinned address above it is — so it must not look like a
+   second field competing for the same action. */
+.hint code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;
+word-break:break-all;user-select:all}</style>
 </head>
 <body>
 <div class="wrap">
@@ -66,7 +71,6 @@ footer a{color:var(--accent)}
 <h1>Wirepost Test</h1>
 <p class="tagline">A first Wirepost feed, published as static files to GitHub Pages.</p>
 <div class="follow"><a class="primary" href="#follow">Follow</a></div>
-<p class="addr">feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq</p>
 </header>
 
 <article id="bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq">
@@ -86,6 +90,11 @@ footer a{color:var(--accent)}
 <p class="hint">It records that you started here, at post 3. If the
 address ever serves an older copy of this publication than the one you were given, your reader
 will say so instead of quietly showing you less.</p>
+
+<p class="hint">Underneath that address, this publication is one permanent identity:
+<code>feed://bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq</code> &mdash; a hash of its own first record, not a domain name.
+It is what your reader checks every post against, and it does not change if this page moves to
+a different address.</p>
 
 <p><strong>No Wirepost reader?</strong> Use
 <a href="atom.xml">Atom</a> or <a href="rss.xml">RSS</a> in any feed
