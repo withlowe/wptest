@@ -1,7 +1,7 @@
 {
   "type": "index",
   "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
-  "checkpoint": 4,
+  "checkpoint": 5,
   "page": 1,
   "pages": 1,
   "entries": [
@@ -20,6 +20,10 @@
     {
       "sequence": 4,
       "cid": "bagaaierannjtdr664w4cdhu55yg4xq36gylk2sdvy2vdewvuki2vu7sub4yq"
+    },
+    {
+      "sequence": 5,
+      "cid": "bagaaiera2dy5w5bbgsnabyybgumdizhmv33eaap7i4ponr4tib45q2j2zwiq"
     }
   ]
 }

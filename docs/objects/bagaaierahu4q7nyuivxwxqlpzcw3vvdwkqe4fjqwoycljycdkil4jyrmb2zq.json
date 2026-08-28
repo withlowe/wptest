@@ -1,0 +1,13 @@
+{
+  "payload": {
+    "type": "checkpoint",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "sequence": 5,
+    "head": "bagaaiera2dy5w5bbgsnabyybgumdizhmv33eaap7i4ponr4tib45q2j2zwiq",
+    "root": "d43b42523cb1ec794f1d906125ba958ddbcecb9f73677905e3cb6cf01a6de90a",
+    "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "created": "2026-08-28T16:19:41Z"
+  },
+  "alg": "ed25519",
+  "sig": "z4pSkownKWsSzzpo8GuJwVraALEeiDdMBmMWTZyVyHbKs2G7iWp5ogrSJ7Z3n4DziaeNSvV17nL5dQhVMRTBJtxGW"
+}

@@ -1,0 +1,32 @@
+{
+  "payload": {
+    "type": "block",
+    "kind": "article",
+    "content": {
+      "contentVersion": 1,
+      "title": "Second post",
+      "body": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Wohooooooooooo this is the second post on Wirepost. edited today"
+            }
+          ]
+        }
+      ],
+      "author": "With Lowe"
+    },
+    "published": "2026-08-28T16:19:41Z",
+    "signer": "z6Mknj49Gi9hoXrT2dLFfzg3sRazKwb1cdk3GJz4gaqJze16",
+    "corrects": "bagaaierannjtdr664w4cdhu55yg4xq36gylk2sdvy2vdewvuki2vu7sub4yq",
+    "feed": "bagaaieraoigwa6js66b5obc4jg7a6xxdz4l6nsfub2t7q2zswcypep45gpzq",
+    "sequence": 5,
+    "parents": [
+      "bagaaierannjtdr664w4cdhu55yg4xq36gylk2sdvy2vdewvuki2vu7sub4yq"
+    ]
+  },
+  "alg": "ed25519",
+  "sig": "z3AGjAfRS1mnBcUoadR3GxQ8FNiFPedhGC9wm4xZdvbvdXuj2hx981T9jjgooYpNAVp55kouApt3H8RZW9ZUzKZZ"
+}
