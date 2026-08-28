@@ -4,9 +4,16 @@
     <title>Wirepost Test</title>
     <description>A first Wirepost feed, published as static files to GitHub Pages.</description>
     <link>https://withlowe.github.io/wptest/</link>
-    <lastBuildDate>Thu, 27 Aug 2026 14:26:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 16:03:52 GMT</lastBuildDate>
     <generator>Wirepost</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://withlowe.github.io/wptest/rss.xml"/>
+    <item>
+      <guid isPermaLink="false">urn:cid:bagaaierannjtdr664w4cdhu55yg4xq36gylk2sdvy2vdewvuki2vu7sub4yq</guid>
+      <title>Second post</title>
+      <pubDate>Fri, 28 Aug 2026 16:03:52 GMT</pubDate>
+      <link>https://withlowe.github.io/wptest/#bagaaierannjtdr664w4cdhu55yg4xq36gylk2sdvy2vdewvuki2vu7sub4yq</link>
+      <description>&lt;p&gt;Wohooooooooooo this is the second post on Wirepost.&lt;/p&gt;</description>
+    </item>
     <item>
       <guid isPermaLink="false">urn:cid:bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq</guid>
       <title>Hello from Wirepost</title>
