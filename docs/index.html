@@ -21,11 +21,21 @@ font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 header{border-bottom:1px solid var(--line);padding-bottom:1.75rem;margin-bottom:2.5rem}
 h1{font-size:1.9rem;line-height:1.2;margin:0 0 .4rem;letter-spacing:-.02em}
 .tagline{color:var(--dim);margin:0 0 1.25rem}
-.follow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
-.follow a{display:inline-block;padding:.4rem .8rem;border:1px solid var(--line);
-border-radius:6px;text-decoration:none;color:inherit;font-size:.85rem}
-.follow a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-.follow a:hover{border-color:var(--accent)}
+/* The subscribe row, in the shape people already know from a newsletter: one
+   field, one button, directly under the description. What it does is different
+   — nothing is submitted anywhere — so the field holds the address you take
+   away rather than one you hand over. */
+.follow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:stretch;margin-top:1.4rem}
+.follow input{flex:1 1 16rem;min-width:0;padding:.65rem .8rem;border:1px solid var(--line);
+border-radius:6px;background:var(--bg);color:var(--fg);
+font:.9rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.follow input:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:var(--accent)}
+.follow button,.follow a.primary{padding:.65rem 1.1rem;border:1px solid var(--accent);
+border-radius:6px;background:var(--accent);color:#fff;font:inherit;font-size:.9rem;
+font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
+.follow button:hover,.follow a.primary:hover{filter:brightness(1.08)}
+.follow-note{margin:.6rem 0 0;color:var(--dim);font-size:.82rem}
+.follow-note a{color:var(--accent)}
 .addr{margin:1rem 0 0;padding:.6rem .75rem;background:var(--code);border-radius:6px;
 font:.78rem/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--dim);
 word-break:break-all;user-select:all}
@@ -70,7 +80,9 @@ word-break:break-all;user-select:all}</style>
 <header>
 <h1>Wirepost Test</h1>
 <p class="tagline">A first Wirepost feed, published as static files to GitHub Pages.</p>
-<div class="follow"><a class="primary" href="#follow">Follow</a></div>
+<div class="follow">
+<a class="primary" href="#follow">Follow</a>
+</div>
 </header>
 
 <article id="bagaaieraok6riauymdmvilwaxwev2bkc7vqbijxsi6xzoujypgdazwdgr3jq">
